@@ -7,7 +7,7 @@
 
 ```
 # clone repo
-git clone https://github.com/kmissoumi/demo-python.git && cd demo-python
+git clone https://github.com/SauceFrank/demo-python.git && cd demo-python
 
 # setup environment
 pipenv install
