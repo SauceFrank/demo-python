@@ -168,7 +168,7 @@ def rdc_browser(request, data_center):
     caps = {
         'username': username_cap,
         'accessKey': access_key_cap,
-        'deviceName': 'iPhone_12_POC115',
+        'deviceName': 'iPhone.*',
         'platformName': 'iOS',
         'build': 'RDC-iOS-Web-Python-Best-Practice',
         'name': request.node.name,
@@ -196,7 +196,7 @@ def android_rdc_driver(request, data_center):
     caps = {
         'username': username_cap,
         'accessKey': access_key_cap,
-        'deviceName': 'Samsung_Galaxy_S20_FE_5G_POC116',
+        'deviceName': 'Samsung.*',
         'platformName': 'Android',
         'build': 'RDC-Android-Python-Best-Practice',
         'name': request.node.name,
@@ -224,7 +224,7 @@ def ios_rdc_driver(request, data_center):
     caps = {
         'username': username_cap,
         'accessKey': access_key_cap,
-        'deviceName': 'iPhone_12_POC115',
+        'deviceName': 'iPhone.*',
         'platformName': 'iOS',
         'build': 'RDC-iOS-Python-Best-Practice',
         'name': request.node.name,
